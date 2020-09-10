@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+    outline: none;
+    color: black;
+    text-decoration: none !important;
+}
+
+.body {
+    width: 80%;
+    margin: 5rem auto;
+    background-color: rgba(255, 248, 252, 0.7);
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0 20px 50px rgba(240, 46, 170, 0.7);
+    color: #001f3f;
+}
+
+.body > .home-link {
+    margin: 10px auto;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.home-link:link,
+.home-link:active,
+.home-link:visited {
+    outline: none;
+    color: green;
+}
+
+.home-link:hover {
+    text-decoration: none !important;
+    color: green !important;
+}
+
+.start-link {
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #3f003a;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.start-link:hover {
+    color: white;
+    background-color: #3f003a;
+    transition: 0.5s;
+}
+
+.image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image img {
+    width: 170px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.image img:hover {
+    box-shadow: 0 10px 25px rgba(240, 46, 46, 0.7);
+}
+
+.lesson-list {
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    margin: 20px 10px 10px;
+    padding: 5px;
+    color: #fc6858;
+    background-color: #ececec;
+    padding: 10px;
+}
+
+.lesson-link {
+    margin: 10px 13px;
+    padding: 10px;
+    border: 2px dashed #c8c8c8;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.lesson-link:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #c8c8c8;
+}
+
+.lesson-link-active {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #c8c8c8;
+    cursor: default;
+}
+
+.lesson-link-active h4 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .body {
+        width: 95% !important;
+    }
+}
+
+.lesson-describtion {
+    color: #2a2a2a;
+}
+
+.exam {
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    margin: 7px;
+    padding: 6px;
+    color: #2a2a2a;
+    font-size: 1.1rem;
+}
+
+.exam p {
+    font-size: 1rem;
+}
+
+.question-ul {
+    list-style-type: none;
+    /* margin-left: 30px; */
+    font-size: 0.95rem;
+}
+
+.question-ul li {
+    cursor: pointer;
+    margin: 5px 10px;
+    display: inline;
+}
